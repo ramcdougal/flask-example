@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 from collections import Counter
 
-app = Flask("simple-example")
+app = Flask(__name__)
 
 
 @app.route("/")
